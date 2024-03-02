@@ -1,0 +1,55 @@
+{
+
+  "global": {
+
+    "Colors": {
+
+      "Text": {
+
+        "Headline": {
+
+          "description": "Lorem",
+
+          "value": "#223300",
+
+          "type": "color"
+
+        },
+
+        "Body": {
+
+          "description": "Lorem",
+
+          "value": "#423156",
+
+          "type": "color"
+
+        },
+
+        "Light": {
+
+          "description": "Lorem",
+
+          "value": "#707784",
+
+          "type": "color"
+
+        },
+
+        "Black": {
+
+          "description": "Lorem",
+
+          "value": "#0b0b05",
+
+          "type": "color"
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

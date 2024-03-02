@@ -1,0 +1,17 @@
+{
+  "name": "utils-library",
+  "version": "1.0.0",
+  "description": "A library of utility functions",
+  "main": "index.ts",
+  "scripts": {
+    "f-generate-scss": "npx ts-node src/generateScssVariables.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Coriano Harris",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
