@@ -1,13 +1,16 @@
-# Styles Variable Generator
+# JSON to SCSS Variables Converter
 
- This project provides a utility for generating various style variables from a JSON-like object. It recursively traverses the object, extracting values and converting them into various style variable declarations.
+This Node.js script converts a JSON-like object into SCSS variables, making it easier to manage and use JSON data within your stylesheets. It processes JSON files to extract values and generate SCSS variable declarations.
 
-## Usage
+## Features
 
-1. Ensure your JSON-like object is structured correctly.
-2. Modify the design-tokens.json file to match your design tokens.
-3. Run the command that's in the ```package.json``` to generate the style variables:
+- **Recursive Parsing:** Handles nested JSON objects and generates SCSS variables accordingly.
+- **Custom Formatting:** Formats variable names by replacing spaces with hyphens and ensuring valid SCSS syntax.
+- **File Handling:** Reads from a JSON file and writes formatted SCSS variables to a specified output file.
 
-## All Rights Reserved
+## Installation
 
-This project and its contents are proprietary to Coriano Harris. All rights reserved. No part of this project may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the owner, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/json-to-scss-variables.git
